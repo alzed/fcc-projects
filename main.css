@@ -9,7 +9,7 @@ body {
 }
 
 #title {
-    font-size: xxx-large;
+    background: rgb(226, 226, 202);
     text-align: center;
     padding: 20px;
 }
@@ -38,10 +38,26 @@ body {
 }
 
 #tribute-info {
+    background: rgb(226, 226, 202);
     line-height: 45px;
-    padding-left: 200px;
+    margin: 0px auto;
+    max-width: 800px;
+    padding: 20px 0px; 
 }
 
 .year-text {
     font-weight: bold;
+}
+
+.quote {
+    text-align: center;
+    text-decoration: wavy;
+    font-size: medium;
+    padding: 20px;
+}
+
+#last-note {
+    /* font-weight: large; */
+    padding: 20px;
+    text-align: center;
 }
