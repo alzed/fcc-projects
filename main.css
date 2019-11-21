@@ -22,6 +22,13 @@ body {
     height: 525px;
 }
 
+#image {
+    position: absolute;
+    display: block;
+    top: -160px;
+    right: -35px;
+}
+
 @media only screen and (max-width: 700px) {
     #img-div {
         max-width: 400px;
@@ -45,13 +52,6 @@ body {
         top: -100px;
     }
 }
-  
-#image {
-    position: absolute;
-    display: block;
-    top: -160px;
-    right: -35px;
-}
 
 #img-caption {
     position: absolute;
@@ -61,6 +61,25 @@ body {
     background: beige;
     padding: 15px 0px;
 }
+
+/* #img-div {
+    padding: 10px;
+    margin: 0;
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  #img-caption {
+      bottom: 0px;
+      width: 100%;
+      text-align: center;
+      padding: 15px 0px;
+  } */
 
 #tribute-info {
     background: rgb(226, 226, 202);
