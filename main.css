@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+
+#main {
+    background: beige;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+#title {
+    font-size: xxx-large;
+    text-align: center;
+    padding: 20px;
+}
+
+#img-div {
+    position: relative;
+    overflow: hidden;
+    margin: 20px auto;
+    max-width: 700px;
+    height: 525px;
+}
+  
+#image {
+    position: absolute;
+    display: block;
+    top: -160px;
+}
+
+#img-caption {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    background: beige;
+    padding: 10px;
+}
+
+#tribute-info {
+    line-height: 45px;
+    padding-left: 200px;
+}
+
+.year-text {
+    font-weight: bold;
+}
