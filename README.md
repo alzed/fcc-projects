@@ -1,4 +1,4 @@
-# FreeCodeCamp Responsive Web design Projects
+# FreeCodeCamp Responsive Web Design Projects
 
 The projects in this respository are a part of Responsive Web Design Certification provided by Free Code Camp. 
 
