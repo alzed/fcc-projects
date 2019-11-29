@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    background: black;
+}
+
+#header {
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+#survey-form {
+    position: relative;
+    margin: 0px auto;
+    max-width: 600px;
+    background: rgb(49, 48, 48);
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    padding: 20px 30px;
+    margin-bottom: 40px;
+}
+
+.form-child {
+    width: 100%;
+    margin: 0px auto;
+}
+
+input, textarea {
+    background: black;
+    color: whitesmoke;
+    border: none;
+    width: 100%;
+    outline: none;
+    padding: 10px;
+    font: 1em sans-serif;
+}
+
+label {
+    display: block;
+    padding: 15px 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    font-size: larger;
+}
+
+#gender, #service {
+    border: none;
+    font-size: larger;
+} 
+
+#gender-label, #service-label{
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+#gender label, #service label{
+    display: flex;
+    align-items: center;
+    font: large sans-serif;
+    padding: 10px 0px;
+}
+
+#gender input, #service input {
+    width: 30px; 
+}
+
+fieldset {
+    padding: 0px;
+}
+
+#dropdown {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: black;
+    color: whitesmoke;
+    font: 1em sans-serif;
+}
+
+.submit-btn {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+}
+
+#submit {
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font: 15px sans-serif;
+}
