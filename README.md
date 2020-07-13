@@ -1,10 +1,14 @@
-# FreeCodeCamp Responsive Web Design Projects
+# FreeCodeCamp Certification Projects
 
-The projects in this respository are a part of Responsive Web Design Certification provided by Free Code Camp. 
+The projects in this respository are part of the Certifications provided by Free Code Camp. 
 
 ## Technology stack
 - HTML
 - CSS
+- Javascript
+- Node
+- Express
+- Mongodb
 
 ## List of projects
 
